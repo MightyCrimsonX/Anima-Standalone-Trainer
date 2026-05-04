@@ -16,6 +16,7 @@ schedulefree==1.4
 pytorch-optimizer==3.9.0
 prodigy-plus-schedule-free==1.9.2
 prodigyopt==1.1.2
+setuptools
 tensorboard
 safetensors==0.4.5
 # gradio==3.16.2
@@ -54,9 +55,8 @@ flask
 wandb
 ./cuda_direct_pkg
 ./wd_parallel_pkg
-
 -e .
-setuptools==80.0.0
+
 
 
 
