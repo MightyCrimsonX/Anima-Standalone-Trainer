@@ -1,0 +1,22 @@
+[general]
+enable_bucket = true
+bucket_no_upscale = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+
+[[datasets]]
+resolution = [ 768, 768 ]
+batch_size = 1
+caption_extension = ".txt"
+
+  [[datasets.subsets]]
+  image_dir = "/content/drive/MyDrive/Loras/project_name/dataset"
+  num_repeats = 1
+  keep_tokens = 1
+  flip_aug = false
+  caption_prefix = ""
+  caption_dropout_rate = 0.05
+  caption_tag_dropout_rate = 0
+  caption_dropout_every_n_epochs = 0
+  shuffle_caption = true

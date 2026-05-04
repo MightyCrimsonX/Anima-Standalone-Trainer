@@ -1,0 +1,18 @@
+venv_path = ""
+
+[model_paths]
+dit_path = "/content/models/anima-preview3-base.safetensors"
+qwen3_path = "/content/models/qwen_3_06b_base.safetensors"
+vae_path = "/content/models/qwen_image_vae.safetensors"
+lumina_dit_path = ""
+gemma2_path = ""
+lumina_vae_path = ""
+
+[ui]
+background = ""
+background_position = "50.0% 50.0%"
+dim_level = 0
+brightness_level = 100
+blur_level = 0
+text_shadow_size = 0
+theme = "github-dark"
